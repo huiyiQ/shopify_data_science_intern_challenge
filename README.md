@@ -1,6 +1,6 @@
 # Shopify Winter 2022 Data Science Intern Challenge
 ## Question 1 Answers:
-The naive calculation of AOV = $3145.13 could be going wrong because different shops can have very different performance, and therefore the data may be skewed, causing a simple mean to come out higher than expected. Going from there, after analyzing the average order value for each shop, we can see that shop #42 and shop #78 had a much higher AOV per shop; the former is potentially affected by credit card fraud while the latter simply has a much higher unit price for its sneakers. For more indepth analysis, please see the notebook in this repo. A better way to evaluate this data would be to use something that's less sensitive to outliers, such as the median or IQR.
+The naive calculation of AOV = $3145.13 could be going wrong because different shops can have very different performance, and therefore the data may be skewed, causing a simple mean to come out higher than expected. Going from there, after analyzing the average order value for each shop, we can see that shop #42 and shop #78 had a much higher AOV per shop; the former is potentially affected by credit card fraud while the latter simply has a much higher unit price for its sneakers. For more indepth analysis, please see [the notebook](https://github.com/huiyiQ/shopify_data_science_intern_challenge/blob/main/question_1.ipynb) in this repo. A better way to evaluate this data would be to use something that's less sensitive to outliers, such as the median or IQR.
 
 For this dataset, I'd like to report the IQR.
 ```python
